@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/question_layout_RL"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p1">
+
+    <TextView
+        android:id="@+id/Top_cate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Social Triggers"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Top_cate"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/anton"
+        android:text="I was very afraid of being judged by others."
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Question"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/opt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_question_btn"
+            android:fontFamily="@font/anton"
+            android:paddingStart="25dp"
+            android:paddingTop="3dp"
+            android:paddingEnd="25dp"
+            android:paddingBottom="4dp"
+            android:text="Always"
+            android:textAlignment="center"
+            android:textColor="#323232"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/opt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/opt1"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_question_btn"
+            android:fontFamily="@font/anton"
+            android:paddingStart="25dp"
+            android:paddingTop="3dp"
+            android:paddingEnd="25dp"
+            android:paddingBottom="4dp"
+            android:text="Sometimes"
+            android:textAlignment="center"
+            android:textColor="#323232"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/opt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/opt2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_question_btn"
+            android:fontFamily="@font/anton"
+            android:paddingStart="25dp"
+            android:paddingTop="3dp"
+            android:paddingEnd="25dp"
+            android:paddingBottom="4dp"
+            android:text="Never"
+            android:textAlignment="center"
+            android:textColor="#323232"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</RelativeLayout>
